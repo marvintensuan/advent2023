@@ -4,3 +4,6 @@
 
 # Advent of Code
 inputs/
+
+# Editor
+.vscode
