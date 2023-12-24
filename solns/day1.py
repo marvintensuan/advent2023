@@ -1,7 +1,7 @@
 import re
 
 
-def part1():
+def part1() -> None:
     with open("./inputs/day1.txt") as f:
         data = f.read().splitlines()
 
@@ -10,7 +10,7 @@ def part1():
     print(f"{sum(all_digits)=}")
 
 
-def part2():
+def part2() -> None:
     with open("./inputs/day1.txt") as f:
         data = f.read().splitlines()
 
